@@ -1,0 +1,32 @@
+p:first-child {
+    color: blue;
+}
+
+h1 {
+    text-shadow: 2px 2px #F00;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.capitulado {
+    text-transform: capitalize;
+}
+
+.sangrado {
+    text-indent: 50px;
+}
+
+.espaciado {
+    letter-spacing: 3px;
+}
+
+.interlineado {
+    line-height: 30px;
+    word-spacing: 30px;
+}
+
+#encabezado {
+    border-color: aqua red blue yellow;
+    border-style: dashed dotted solid inset;
+}

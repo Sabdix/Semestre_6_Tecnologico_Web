@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+}
+
+#bienvenidos {
+    margin-top: 2%;
+    margin-left: 3.3%;
+    width: 80%;
+    height: 150px;
+    float: left;
+    background-color: aqua;
+}
+
+#logo {
+    width: 10%;
+    margin-top: 2%;
+    margin-left: 3.3%;
+    background-color: beige;
+    height: 2%;
+}
+
+#local {
+    width: 35%;
+    float: left;
+    text-align: center;
+    background-color: red;
+    margin-left: 3.75%;
+    margin-top: 2%;
+    height: 225px;
+}
+
+#transferencia {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    background-color: green;
+    margin-left: 3.75%;
+    margin-top: 2%;
+    
+}
+
+#servidor {
+    width: 35%;
+    float: right;
+    text-align: center;
+    background-color: blue;
+    margin-left: 3.75%;
+    margin-top: 2%;
+    margin-right: 3.75%;
+    height: 225px;
+}
+
+#pie {
+    text-align: center;
+    margin-top: 2%;
+    background-color: pink;
+    margin-left: 3.75%;
+    margin-right: 3.75%;
+}
+
+
+#izquierda {
+    width: 100px;
+    height: 100px;
+}
+
+#derecha {
+    width: 100px;
+    height: 100px;
+}

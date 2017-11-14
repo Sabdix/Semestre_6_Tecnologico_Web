@@ -1,0 +1,32 @@
+CREATE TABLE usuarios (
+    id int PRIMARY KEY,
+    nombre character varying(20) NOT NULL,
+    password varchar (32),
+    id_tipo int
+);
+
+CREATE TABLE tipo_usuario(
+    id_tipo int PRIMARY KEY
+    descripcion varchar(48) NOT NULL
+);
+
+ALTER TABLE usuarios ADD CONSTRAINT fk_usuario_tipo_usuario FOREIGN KEY (id_tipo) REFERENCES tipo_usuario(id_tipo);
+
+INSERT INTO tipo_usuario VALUES (1, 'Cliente');
+INSERT INTO tipo_usuario VALUES (1, 'Empleado');
+INSERT INTO tipo_usuario VALUES (1, 'Administrador');
+
+INSERT INTO usuarios VALUES (1, 'Sabdi', md5('password'), 3);
+INSERT INTO usuarios VALUES (2, 'Mariano', md5('password'), 1);
+INSERT INTO usuarios VALUES (3, 'Alondra', md5('password'), 2);
+
+SELECT 
+    id, password, descripcion 
+FROM 
+    usuarios 
+    INNER JOIN tipo_usuarios USING(id_tipo);
+
+SELECT MD5 ('password');
+
+CREATE DATABASE prograWeb;
+

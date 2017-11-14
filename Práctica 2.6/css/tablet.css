@@ -1,0 +1,16 @@
+header {
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-size: 22px;
+}
+
+@media print{
+    body{
+        background: pink;
+    }
+}

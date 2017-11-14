@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulariosa HTML5</title>
+    <link rel="stylesheet" href="css/validaciones.css">
+</head>
+<body>
+    <header id="encabezado">
+        <h1>Ejemplo de formularios en html 5</h1>
+        <hr>
+    </header>
+    <section id="contenido">
+        <h2>Contenido</h2>
+        <form action="#" method="get">
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" max="100" min="0" required>
+            <br>
+            <label for="nombres">Nombres:</label>
+            <input type="text" name="nombres" id="nombres" placeholder="Pon tu nombre aquí" list="menu">
+            <datalist id="menu">
+                <optgroup id="lista" value="grupo">
+                    <option value="1">Opcion 1</option>
+                    <option value="2">Opcion 2</option>
+                    <option value="3">Opcion 3</option>
+                </optgroup>
+            </datalist>
+            <br>
+            <label>
+                Email:
+                <input type="email" name="correo" id="correo" required>
+            </label>
+            <br>
+            <label>
+                Página Web:
+                <input type="url" name="web" id="web" required autofocus>
+            </label>
+            <br>
+            <label>Buscar:</label>
+            <input type="search" name="buscar" id="buscar">
+            <br>
+            <label>Color:</label>            
+            <input type="color" name="color" id="color">
+            <br>
+            <label>Telefono:</label>
+            <input type="tel" name="telefono" id="telefono" pattern="\(\d{3}\) \d{3}\-\d{4}" required>
+            <br>
+            <br>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" name="fecha" id="fecha">
+            <br>
+            <label>años de servicios:0            
+            <input type="range" min="0" max="50" step="5">50
+            </label>
+            <br>
+            <meter value="75" min="0" max="100"></meter>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>

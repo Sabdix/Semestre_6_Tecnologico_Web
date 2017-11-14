@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <script src="js/operaciones.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1>Calculadora</h1>
+        </header>
+        <hr>
+        <div id="numeros">
+            <form action="#" method="get">
+               <h6>Z1</h6>
+                <label for="w">Real:</label>
+                <input type="text" id="w" name="w" required>
+                <br>
+                <label for="x">i:</label>
+                <input type="text" id="x" name="x" required>
+                <br>
+                <h6>Z2</h6>
+                <label for="y">Real:</label>
+                <input type="text" id="y" name="y" required>
+                <br>
+                <label for="z">i:</label>
+                <input type="text" id="z" name="z" required>
+                <br><br>
+                <select name="operacion" id="operacion">
+                    <optgroup label="Básicas">
+                        <option value="1">Suma</option>
+                        <option value="2">Resta</option>
+                    </optgroup>
+                    <optgroup label="Operaciones Secundarias">
+                        <option value="3">Multiplicación</option>
+                        <option value="4">División</option>
+                    </optgroup>
+                </select>
+                <br><br>
+                <input type="button" value="Operar" id="boton">
+            </form>
+        </div>
+        <span id="Res"></span>
+        <hr>
+        <footer id="pie">
+            <en>Pantoja Orozco Sabdi Abraham</en>
+        </footer>
+    </body>
+</html>

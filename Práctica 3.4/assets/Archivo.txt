@@ -1,0 +1,3 @@
+Esto es un ejemplo de archivoo
+en formato texto plano para probar
+el load.

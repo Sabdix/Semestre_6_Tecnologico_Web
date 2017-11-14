@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+}
+
+p{
+    text-align: justify;
+}
+
+nav{
+    text-align: center;
+}
+
+@media print{
+    body{
+        background: pink;
+    }
+}

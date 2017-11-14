@@ -1,0 +1,63 @@
+/*estilos.css
+Hoja de estilo para la prÃ¡ctica de ProgramaciÃ³n Web
+*/
+
+* {
+   background-color: #FAFAFA;
+   direction: rtl;
+   font-size: 12pt;
+}
+
+.titulo {
+    
+    font-size: 4em;
+    font-weight: 100pt;
+    text-indent: 10pt; 
+}
+
+.remarcar {
+    background-color: yellow;
+    color: red;
+} 
+
+.error {
+    color: white;
+    background-color: red;
+    border-color: yellow;
+    border-style: double;    
+}
+
+.ayuda {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+p {
+    text-align: justify;
+}
+
+img{
+    border: 1px solid;
+    border-color: yellow;    
+}
+
+#encabezado{
+    text-decoration: rgb(0,200, 0);
+    text-decoration: dashed;
+} 
+
+#pie {
+    font-style: italic;
+} 
+
+#contenido {
+    font-family: monospace;
+}
+
+h2:hover{
+    color:red;
+    font-size: 20px;
+    
+}

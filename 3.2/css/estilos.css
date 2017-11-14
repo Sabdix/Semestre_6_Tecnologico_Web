@@ -1,0 +1,71 @@
+#nombres{
+    border-color: blue;
+    padding: 5px;
+    border: 5px;
+    background-color: aqua;
+}
+
+#apellidoM{
+    background-color: brown;
+    padding: 5px;
+    border: 5px;
+    border-color: darkgreen;
+}
+
+#email{
+    background-color: coral;
+    padding: 5px;
+    border: 5px;
+    border-color: deeppink;
+}
+
+#formulario{
+    font-family: TimesNewRoman;
+    width: 200px;
+}
+
+#titulo{
+    font-size: 20px;
+    font-style: bold;
+}
+#apellidoP {
+    background-color: blue;
+    padding: 5px;
+    border: 5px;
+    border-color: darkgray;
+}
+
+#edad {
+    background-color: bisque;
+    padding: 5px;
+    border: 5px;
+    border-color: aqua;
+}
+
+#calle {
+    background-color: darkgoldenrod;
+    padding: 5px;
+    border: 5px;
+    border-color: deeppink;
+}
+
+#colonia {
+    background-color: darkorchid;
+    padding: 5px;
+    border: 20px;
+    border-color: darkslategrey;
+}
+
+#numero {
+    background-color: darkcyan;
+    padding: 5px;
+    border: 5px;
+    border-color: crimson;
+}
+
+#estado {
+    background-color: darkgreen;
+    padding: 5px;
+    border: 5px;
+    border-color: darkorange;
+}

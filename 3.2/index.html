@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica 3.2</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    </head>
+    <body>
+        <section id="formulario">
+            <h2>Registro</h2>
+            <form action="#" method="get" id="form">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label for="nombres">Nombre:</label>
+                    <input type="text" name="nombre" id="nombres">
+                    <label for="apellidoM">Apellido Materno</label>
+                    <input type="text" name="apellidoM" id="apellidoM">
+                    <label for="apellidoP">Apellido Paterno</label>
+                    <input type="text" name="apellidoP" id="apellidoP">
+                    <label for="edad">Edad</label>
+                    <input type="number" name="edad" id="edad">
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" id="H">Hombre
+                    <input type="radio" name="sexo" id="M">Mujer
+                    <label for="edocivil">Estado Civil</label> <br>
+                    <input type="radio" name="edocivil" id="edocivil" checked="checked" value="S"> Soltero<br>
+                    <input type="radio" name="edocivil" id="edocivil1" value="C"> Casado <br>
+                    <input type="radio" name="edocivil" id="edocivil2" value="V"> Viudo <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Dirección</legend>
+                    <label for="calle">Calle</label>
+                    <input type="text" name="Calle" id="calle">
+                    <label for="colonia">Colonia</label>
+                    <input type="text" name="colonia" id="colonia">
+                    <label for="numero">Número</label>
+                    <input type="number" name="numero" id="numero">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="e1">Michoacán</option>
+                        <option value="e2">Zacatecas</option>
+                        <option value="e3">Guanajuato</option>
+                        <option value="e4">Colima</option>
+                        <option value="e5">Querétaro</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Guardar">
+                <input type="reset" value="Limpiar">
+            </form>
+        </section>
+    </body>
+</html>

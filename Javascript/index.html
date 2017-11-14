@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+        <script src="js/validaciones.js"></script>
+        <script>
+            function sumar(){
+                var num1, num2;
+                num1 = parseInt(window.prompt("Dame un número"));
+                num2 = parseInt(prompt('Dame otro número'));
+                res = num1+num2;
+                alert('El resultado de la suma es: '+res);
+            }
+        </script>
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1 onclick="alert('Hola Mundo!');">Práctica de Javascript</h1>
+            <hr>
+        </header>
+        <div id="contenido" style="background-color: blue;">
+            <h2>Contenido</h2>
+            <script type="application/ecmascript">
+                for(i=1; i<7; i++){
+                    document.writeln("<h"+i+">Hola Mundo</h"+i+">");  
+                }
+            </script>
+            <p><a href="#" onclick="sumar();">Sumar</a></p>
+            <p>Texto 1</p>
+            <p ondblclick="invocarCuadrado();">Cuadrado</p>
+            <p>Texto 3</p>
+        </div>
+        <footer id="pie">
+            <abbr title="Instituto de Ingenieros Eléctricos y Electrónicos">IEEE</abbr>
+        </footer>
+    </body>
+</html>

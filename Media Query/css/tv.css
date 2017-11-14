@@ -1,0 +1,23 @@
+/*Hoja de estilo para pantallas de tv arriba
+de 1000 pixeles*/
+
+#contenido {
+    background-color: rosybrown;
+    color:antiquewhite;
+}
+
+#pie {
+    border: 3px dotted yellowgreen;
+    text-decoration: overline;
+}
+
+@Media screen and (min-width: 401px) and (max-width: 999px){
+    h1 {
+        font-size: 5em;
+        background-color: salmon;
+    }
+    #pie {
+        width: 30%;
+        
+    }
+}

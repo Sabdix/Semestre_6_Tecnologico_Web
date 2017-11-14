@@ -1,0 +1,39 @@
+/*Ejemplo de Medios Queries*/
+
+/*Solo se muestra en el modo impresión*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+}
+@media print{
+    details {
+        background-color: gold;
+        color: hotpink;
+    }
+    
+    p {
+        font-size: 0.5em;
+        
+    }
+}
+
+@media screen and (max-width: 500px){
+    details{
+        background-color: navajowhite;
+        color: turquoise;
+    }
+    
+    p{
+        color: cyan;
+        text-align: right;
+    }
+}
+
+@media all{
+    #encabezado {
+        border: 3px double green;
+        font-size: 3em;
+    }
+}

@@ -1,0 +1,68 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logoImg {
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.restricciones {
+    
+}
+
+#remitente {
+   width: 35%;
+    background-color: aqua;
+    border-color: black;
+    border: 1px;
+    margin-top: 1%;
+    float: left;
+    display: inline;
+    height: 100px;
+    margin-left: 1%;
+}
+
+#logo {
+    background-color: cadetblue;
+    width: 55%;
+    margin-top: 1%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#titulo1 {
+    float: left;
+}
+
+#contenido {
+    margin-left: 1%;
+    width: 60%;
+    background-color: crimson;
+    margin-top: 1%;
+    border: 1%;
+    border-color: black;
+    display: inline;
+    float: left;
+}
+
+#configuracion {
+    display: inline-block;
+    height: 406px;
+    width: 25%;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: chocolate;
+    margin-right: 1%;
+}
+
+#restricciones {
+    background-color: chartreuse;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}

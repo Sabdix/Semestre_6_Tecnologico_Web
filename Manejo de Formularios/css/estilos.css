@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+input{
+    font-size: 3em;
+    color:aliceblue
+}
+
+textarea:focus {
+    background-color: red;
+    font-size: 4em;
+}
+
+input:focus {
+    color: yellow;
+    font-family: "Helvetica";
+}

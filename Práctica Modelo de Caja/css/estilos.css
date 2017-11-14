@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    
+}
+
+#encabezado {
+    border: 1px double #FF0;
+    padding-left: 46%;
+}
+
+#bienvenida {
+    background-color:darkgrey;
+    margin-top: 2%;
+    display: inline;
+    text-align: center;
+}
+
+#menu {
+    border-right: 1px solid blue;
+    width: 20%;
+    margin-right: 5%;
+    position: absolute;
+    left: 2%;
+}
+
+#barra {
+    color:aqua;
+}
+
+.enlinea {
+    display: inline;
+}
+
+#contenido {
+    border: 3px dotted yellow;
+    position: absolute;
+    left: 22%;
+    top: 21%;
+    width: 70%;
+}
+
+#pie {
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    left: 43%;
+}

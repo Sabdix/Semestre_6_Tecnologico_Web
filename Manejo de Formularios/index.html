@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    </head>
+    <body>
+        <header id="encabezado">
+            <h1>Manejo de Formularios</h1>
+            <hr/>
+        </header>
+        <form action="#" method="get" id="formulario">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" size="10" maxlength="10" />
+                <br/>
+                <label>
+                    Contraseña:
+                    <input type="password" name="contrasena" id="contrasena" value="12345">
+                </label>
+            </fieldset>
+            <fieldset>
+               <legend>Datos Generales</legend>
+                <label>
+                    Comentarios:
+                    <textarea name="comentario" id="comentario" cols="30" rows="10">
+Comentarios
+                    </textarea>
+                </label>
+                <br>
+                <label for="estudiante">¿Eres Estudiante?</label>
+                <input type="checkbox" name="estudiante" id="estudiante" checked="checked" />
+                <br>
+                <label for="edocivil">Estado Civil</label> <br>
+                <input type="radio" name="edocivil" id="edocivil" checked="checked" value="S"> Soltero <br>
+                <input type="radio" name="edocivil" id="edocivil1" value="C"> Casado <br>
+                <input type="radio" name="edocivil" id="edocivil2" value="V"> Viudo
+                <br>
+                <label for="carrera">Selecciona tu Carrera</label>
+                <select name="carrera" id="carrera">
+                    <option value="C1">Carrera 1</option>
+                    <option value="C2">Carrera 2</option>
+                    <option value="C3">Carrera 3</option>
+                    <option value="C4">Carrera 4</option>
+                </select>
+                <input type="hidden" name="oculto" value="pWeb">
+                <br>
+                <label for="archivo">Sube tu CV</label>
+                <input type="file" name="archivo" id="archivo">
+            </fieldset>
+            <input type="submit" value="Registrar"/>
+            <input type="reset" value="Limpiar">
+            <input type="button" value="Presionar" onclick="alert('Hola Mundo!');">
+        </form>
+        <footer id="pie">
+            <em>ITM ITIC</em><del>2016</del>
+        </footer>
+    </body>
+</html>
